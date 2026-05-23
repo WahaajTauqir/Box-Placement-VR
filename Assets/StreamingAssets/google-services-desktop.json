@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646406051175",
+    "project_id": "boxplacement",
+    "storage_bucket": "boxplacement.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646406051175:android:a0191f00655015804c4bc2",
+        "android_client_info": {
+          "package_name": "com.elytrastudios.boxplacement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgSoWUdvb1PWPSywX3PCH-o83H6YDn0l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

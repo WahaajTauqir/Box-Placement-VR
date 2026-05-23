@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &384871643451047271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0367
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.031891104
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.020926183
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99344873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.11427907
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 13.124
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Hand 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6f62beea1d0927846b06578f8ad4264b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 606d9ff0ca6433b43959cb8da1701558,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8212793716786598269}
+  m_SourcePrefab: {fileID: 100100000, guid: 606d9ff0ca6433b43959cb8da1701558, type: 3}
+--- !u!1 &690809315669835830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 606d9ff0ca6433b43959cb8da1701558,
+    type: 3}
+  m_PrefabInstance: {fileID: 384871643451047271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8212793716786598269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690809315669835830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82ed36db4d497b4ead79ca35d261021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinchAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Pinch Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d1a0fa15-0a81-45f4-b717-471b96e96064
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 31282a20-0843-4854-a9b6-06b2ca2d1125
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  handAnimator: {fileID: 6070222352757915894}
+--- !u!95 &6070222352757915894 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 606d9ff0ca6433b43959cb8da1701558,
+    type: 3}
+  m_PrefabInstance: {fileID: 384871643451047271}
+  m_PrefabAsset: {fileID: 0}
